@@ -1,0 +1,85 @@
+.sec1 {
+    background: rgb(245, 240, 230);
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    scroll-margin-top: 46px;
+    font-size: 28px;
+  }
+
+.sec2 {
+    background-image: url('bg-orbs-1.jpg');
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 28px;
+}
+
+.sec3 {
+    background-image: url('bg-orbs-1.jpg');
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box; 
+    font-size: 28px;
+}
+
+.sec1 h1, .sec2 h1, .sec3 h1 {
+    scroll-margin-top: 67px; 
+}
+.sec2 h1, .sec2 p {
+    color: white; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    scroll-margin-top: 46px;  
+  }
+  
+  li a:hover {
+    background-color: #182b49;
+    color: white;
+  }
+  
+  #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #000000;
+    scroll-margin-top: 46px;
+    font-size: 28px;  
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 28px;
+  }
+
+  #navbar a:hover {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
